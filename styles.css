@@ -1,0 +1,145 @@
+body {
+    background :rgb(0, 0, 0);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+h3 {
+color: rgb(255, 255, 255);
+font-family: roboto;
+text-align: center;
+}
+section > h4 {
+    font-weight: bold;
+    background-color: rgb(126, 126, 126);
+    /* color: #fff; */
+    padding: .5em;
+   /* width: fit-content; */
+
+} 
+
+h4 {
+
+        /* color: rgb(255, 255, 255); */
+        font-family: roboto;
+        text-align: center;
+        /* display: inline-block; */
+        /* background: center; */
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+        margin-inline-start: 700px;
+        margin-inline-end: 700px;
+}
+
+dl {
+    display: flex;
+    flex-flow: row wrap;
+    border: solid rgb(255, 255, 255);
+    border-width: 1px 1px ;
+    display: inline-block;
+    align-content: center;
+    margin-block-start: none;
+    margin-block-end: none;
+    margin-inline-start: none;
+    margin-inline-end: none;
+  }
+  dt {
+    flex-basis: 20%;
+    padding: 2px 4px;
+    background: rgb(255, 255, 255);
+    text-align: right;
+    align-content: flex-start;
+    color: rgb(126, 126, 126);
+  }
+  dd {
+    color: rgb(255, 255, 255);
+    display: list-item;
+    flex-basis: 70%;
+    flex-grow: 1;
+    margin: 0;
+    padding: 2px 4px;
+    border-bottom: 1px solid #333;
+  }
+   
+
+h1 {
+	color: rgb(255, 255, 255);
+    font-family: roboto;
+    text-align: center;
+}
+h2 {
+	color: rgb(255, 255, 255);
+    font-family: roboto;
+    text-align: center;
+    text-shadow: 1px 2px 1px grey;
+
+}
+.title{
+    color:rgb(255, 255, 255);
+    padding-top: 20px;
+    text-align: justify;
+}
+h1 + p {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(126, 126, 126);
+    color: #fff;
+    padding: .5em;
+    width: fit-content;
+}
+p {
+    color: #fff;
+    font-family: roboto;
+}
+img {
+border-radius: 200px;
+}
+
+#FORMATIONS h1{
+      text-shadow: 2px 2px 5px rgb(110, 110, 110);  background-color: lightgrey;
+
+
+}
+li {
+    /* display: inline;
+    float: left; */
+    background-color: rgb(126, 126, 126);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+#COMPETENCES {
+    display: inline-block;
+}
+
+ul {
+font-family: roboto;
+color: white;
+text-decoration: none;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: block; */
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0;
+}
+}
+
+
+li a {
+text-decoration: none;
+ 
+}
+a {
+    color: white; 
+}
+
+      
+      
