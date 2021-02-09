@@ -1,0 +1,526 @@
+* {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: normal;
+  text-decoration-line: none;
+}
+/* the header css  */
+.header {
+  position: fixed;
+  background: hsla(0,0%,100%,.98);
+  transition: box-shadow .25s ease 0s;
+  width: 100%;
+  top: 0;
+  padding: 15px 0 0 250px;
+  height: 50px;
+}
+/* the navbar css*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 500px;
+
+}
+.navbar img {
+  height: 30px;
+}
+
+/* the css li */
+#nav a:hover {
+  color: #00cfb5;
+}
+#nav a {
+  color: #5f6160;
+}
+#nav li {
+  display: inline-flex;
+  list-style: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 8px;
+  position: relative;
+  cursor: pointer;
+}
+/* the css drop-down */
+.drop-down {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100px;
+}
+.drop-downcontenta {
+  font-size: 20px;
+  
+  
+}
+
+.drop-downcontent ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+    right: 10px;
+    display: none;
+  margin-top: 5px;
+  
+}
+.drop-downcontent li {
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    
+}
+.drop-down:hover ul {
+    display: block;
+}
+.drop-downcontent a {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    width: 220px;
+  
+}
+
+/* the introduction css */
+#introduction {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#introduction img {
+  width: 50px;
+}
+#introduction h1 {
+  font-size: 30px;
+  color: #00cfb5;
+}
+#text {
+  display: flex;
+  padding: 30px;
+}
+#text p {
+  font-size: 16px;
+  color: #5f6160;
+}
+/* the bloc css */
+#bloc {
+  margin: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 50px;
+  display: flex;
+}
+/* the css bloc 1 */
+#bloc1 {
+  background-color: #00ccb1;
+  padding: 10px;
+  margin-right: 20px;
+  height: 300px;
+  width: 700px;
+  border-radius: 10px;
+}
+#bloc1:hover{
+    background-color: #09e2c5;  
+}
+#bloc1 i {
+  color: #ffffff;
+  margin: 10px;
+  padding: 0;
+  font-size: 25px;
+}
+#bloc1 h4 {
+  color: #ffffff;
+  margin: 10px;
+  padding: 0;
+  font-size: 26px;
+}
+#bloc1 p {
+  color: #ffffff;
+  margin: 10px;
+  padding: 0;
+  font-size: 24px;
+}
+#select {
+  padding: 0;
+  padding-top: 50px;
+}
+#select select {
+  margin: 10px;
+  padding: 0;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 6px solid transparent;
+}
+/* the css bloc 2 */
+#bloc2 {
+  background-color: #3d83df;
+  padding: 10px;
+  height: 300px;
+  width: 700px;
+  border-radius: 10px;
+}
+#bloc2:hover{
+    background-color: #4e8fe4;  
+}
+#bloc2 i {
+  color: #ffffff;
+  margin: 10px;
+  padding: 0;
+  font-size: 25px;
+}
+#bloc2 h4 {
+  color: #ffffff;
+  margin: 10px;
+  padding: 0;
+  font-size: 26px;
+}
+#bloc2 p {
+  color: #ffffff;
+  margin: 10px;
+  padding: 0;
+  font-size: 24px;
+}
+#select1 {
+  padding: 0;
+  padding-top: 50px;
+}
+#select1 select {
+  margin: 10px;
+  padding: 0;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 6px solid transparent;
+}
+/* the css bloc 3 */
+#bloc3 {
+  background-color: #1b2734;
+  padding: 10px;
+  margin-left: 20px;
+  height: 300px;
+  width: 700px;
+  border-radius: 10px;
+}
+#bloc3:hover{
+    background-color: #243344;  
+}
+#bloc3 i {
+  color: #ffffff;
+  margin: 10px;
+  padding: 0;
+  font-size: 25px;
+}
+#bloc3 h4 {
+  color: #ffffff;
+  margin: 10px;
+  padding: 0;
+  font-size: 26px;
+}
+#bloc3 p {
+  color: #ffffff;
+  margin: 10px;
+  padding: 0;
+  font-size: 24px;
+}
+
+#select2 select {
+background-color: transparent;
+  margin: 10px;
+  padding: 0;
+  font-size: 18px;
+  color: #ffffff;
+  border: transparent;
+}
+/* the css link company */
+#company {
+  margin-left: 250px;
+  margin-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  
+}
+#company h3 {
+  font-size: 26px;
+  color: #00cfb5;
+  text-align: center;
+}
+#link {
+  display: flex;
+  flex-wrap: wrap;
+}
+#link a {
+  margin: 10px;
+  font-size: 17px;
+}
+#link a i {
+  margin: 5px;
+}
+#link a:hover {
+  color: #00cfb5;
+}
+#link a {
+  color: #5f6160;
+}
+/* the css div world */
+#world {
+  background-color: #d1f8f8;
+}
+/* the css div continu */
+#continu {
+  padding: 0;
+  margin-left: 250px;
+  margin-right: 100px;
+  display: flex;
+}
+/* the css div continu 1 */
+#continu1 {
+  margin-right: 30px;
+}
+#continu1 h3 {
+  padding-top: 50px;
+  font-size: 34px;
+  color: #00cfb5;
+  text-align: start;
+}
+#continu1 p {
+  font-size: 16px;
+  color: #5f6160;
+}
+/* the css continu 2 */
+#continu2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* the css leader continu */
+#leader {
+  padding: 0;
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 220px;
+  height: 230px;
+}
+#leader i {
+  margin-top: 30px;
+  margin-left: 100px;
+  color: #00cfb5;
+  font-size: 25px;
+}
+#leader h4 {
+  font-size: 20px;
+  color: #00cfb5;
+  text-align: center;
+}
+#leader p {
+  text-align: center;
+  font-size: 16px;
+  color: #5f6160;
+}
+/* the css appointment continu */
+#appo {
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 220px;
+  height: 230px;
+}
+#appo i {
+  margin-top: 50px;
+  margin-left: 100px;
+  color: #00cfb5;
+  font-size: 25px;
+}
+#appo h4 {
+  font-size: 20px;
+  color: #00cfb5;
+  text-align: center;
+}
+#appo p {
+  text-align: center;
+  font-size: 16px;
+  color: #5f6160;
+}
+/* the css continu unique patients  */
+#unique {
+  padding: 0;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 220px;
+  height: 230px;
+}
+#unique i {
+  margin-top: 30px;
+  margin-left: 100px;
+  color: #00cfb5;
+  font-size: 25px;
+}
+#unique h4 {
+  font-size: 20px;
+  color: #00cfb5;
+  text-align: center;
+}
+#unique p {
+  text-align: center;
+  font-size: 16px;
+  color: #5f6160;
+}
+/* the css continu active doctors  */
+#active {
+  margin-left: 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 220px;
+  height: 230px;
+}
+#active i {
+  margin-top: 50px;
+  margin-left: 100px;
+  color: #00cfb5;
+  font-size: 25px;
+}
+#active h4 {
+  font-size: 20px;
+  color: #00cfb5;
+  text-align: center;
+}
+#active p {
+  text-align: center;
+  font-size: 16px;
+  color: #5f6160;
+}
+/* the css improv text */
+#imptext {
+    margin:0 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+#imptext h3 {
+  text-align: center;
+  font-size: 34px;
+  margin-top: 80px;
+  color: #00cfb5;
+}
+#imptext p {
+    margin-top: -20px;
+    text-align: center;
+  font-size: 16px;
+  color: #5f6160;
+  margin-bottom: 80px;
+}
+/* the css improv */
+#improv {
+  margin-left: 250px;
+  margin-right: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#warsaw:hover{
+    background: #fff;
+    border-radius: 10px;
+    height: 340px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+#barcelona:hover{
+    background: #fff;
+    border-radius: 10px;
+    height: 340px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+#bologna:hover{
+    background: #fff;
+    border-radius: 10px;
+    height: 340px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+#curt:hover{
+    background: #fff;
+    border-radius: 10px;
+    height: 340px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+#istanbul:hover{
+    background: #fff;
+    border-radius: 10px;
+    height: 340px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+#mex:hover{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+#rome:hover{
+    background: #fff;
+    border-radius: 10px;
+    height: 340px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+#improv img {
+  border-radius: 10px;
+}
+.botton {
+  display: flex;
+  justify-content: space-between;
+  margin:0 10px;
+
+}
+#btt {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  height: 15px;
+  width: 100px;
+  background: #3d83df;
+  color: #ffffff;
+  text-align: center;
+  font-weight: normal;
+  font-family: Roboto, Arial, sans-serif;
+}
+/* the css div sound */
+#sound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+#sound p {
+  margin: 16px 0;
+  font-size: 32px;
+  font-weight: 300;
+}
+#btt1 {
+  padding: 15px;
+  font-size: 12px;
+  border-radius: 4px;
+  background: #3d83df;
+  color: #ffffff;
+  text-align: center;
+  font-family: Roboto, Arial, sans-serif;
+}
+/* the css footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.footer p {
+  font-size: 12px;
+  color: #ababab;
+}
+.footer a {
+  color: rgb(116, 182, 236);
+}
